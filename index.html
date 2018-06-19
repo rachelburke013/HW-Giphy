@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HW-Giphy</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Movie Search</h1>
+        </div>
+    </div>
+    <!-- Buttons  -->
+    <div id="gifButtonsView" class="container">
+    </div>
+     <!-- Main Container  -->
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsView"></div>
+        </div>
+
+         <!-- Action Submission Form  -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" type="form">
+                <h2><legend>Submit Your Own Gif</legend></h2>
+                <div class="form-group">
+                    <label for="movie-input">Enter the movie title below</label>
+                    <input type="text" id="movie-input">
+                </div>
+                <input id="addGif" type="submit" value="Add Gif" class="btn btn-primary">
+
+            </form>    
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+</html>

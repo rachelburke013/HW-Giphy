@@ -1,0 +1,32 @@
+body{
+    color: black;
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+	padding: 10px;
+}
+
+
+.jumobotron {
+    background-image: url("../images/background.jpg");
+}
+.jumbotron h1 {
+    text-align: left;
+}
